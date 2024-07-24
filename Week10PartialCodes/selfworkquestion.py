@@ -25,6 +25,16 @@ class GoogleTestCase(unittest.TestCase):
 
     def test_01_scroll(self):
         print("Hello")
+        # Navigate to javatpoint
+        self.browser.get('https://www.javatpoint.com/')
+
+        self.browser.execute_script("window.scrollTo(0,880)")
+        WebDriverWait(self.browser, 2).until(
+            ec.presence_of_element_located(
+                (By.XPATH, "//div[@id='city']/table/tbody/tr/td/fieldset[2]/div[2]/a[2]/div"))
+        )
+        self.browser.find_element(By.XPATH,
+                                  "//div[@id='city']/table/tbody/tr/td/fieldset[2]/div[2]/a[2]/div").click()
 
     @classmethod
     def tearDownClass(cls):
