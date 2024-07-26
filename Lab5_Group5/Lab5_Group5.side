@@ -1,0 +1,248 @@
+{
+  "id": "afc9522d-d715-4a2f-873f-0774e5a28ab4",
+  "version": "2.0",
+  "name": "Lab5_Group5",
+  "url": "https://magento.softwaretestingboard.com/",
+  "tests": [{
+    "id": "5c4e52c8-ad4f-4bc7-b7f3-1fcf54f1c80d",
+    "name": "Lab5_brendan_ritik",
+    "commands": [{
+      "id": "a5350429-2003-4526-adbc-4974ea82ffaa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cda01f27-0871-4628-affc-9e007d0e2574",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a77a76e6-d9eb-4076-b2cd-ef83a07745e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-4 > span:nth-child(2)",
+      "targets": [
+        ["css=#ui-id-4 > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='ui-id-4']/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8681f54f-6173-4ada-91cf-7c7cfc3e12e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hoodies & Sweatshirts",
+      "targets": [
+        ["linkText=Hoodies & Sweatshirts", "linkText"],
+        ["css=.items:nth-child(2) > .item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hoodies & Sweatshirts')]", "xpath:link"],
+        ["xpath=//main[@id='maincontent']/div[4]/div[2]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdeaf551-f7cb-4e71-860f-c0200eb169a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-options-item:nth-child(1) > .filter-options-title",
+      "targets": [
+        ["css=.filter-options-item:nth-child(1) > .filter-options-title", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ac57de-5992-4186-b904-3d80741fab58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.allow .item:nth-child(3) > a",
+      "targets": [
+        ["css=.allow .item:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div/div[2]/ol/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html?style_general=136')]", "xpath:href"],
+        ["xpath=//ol/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pullover 6\nitem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36328e69-3fa3-44c8-bcb9-f4f0e48cc7f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-options-item:nth-child(1) > .filter-options-title",
+      "targets": [
+        ["css=.filter-options-item:nth-child(1) > .filter-options-title", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff36f5ef-ab69-4d90-a2a6-3697f7f2ee5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swatch-option-link-layered:nth-child(3) > .text",
+      "targets": [
+        ["css=.swatch-option-link-layered:nth-child(3) > .text", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div/div[2]/div/div/a[3]/div", "xpath:idRelative"],
+        ["xpath=//a[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17d7958b-62ec-48e1-b755-89f9b9223d62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-options-item:nth-child(2) > .filter-options-title",
+      "targets": [
+        ["css=.filter-options-item:nth-child(2) > .filter-options-title", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3dfdc78-34df-4e49-9dd8-39c99bbd80d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swatch-option-link-layered:nth-child(4) > .swatch-option",
+      "targets": [
+        ["css=.swatch-option-link-layered:nth-child(4) > .swatch-option", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div[2]/div[2]/div/div/a[4]/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47552adc-8fad-426f-9e14-3ffae5eaddc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-options-item:nth-child(8) > .filter-options-title",
+      "targets": [
+        ["css=.filter-options-item:nth-child(8) > .filter-options-title", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div[8]/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2d83ad-a4b1-40f4-94cb-7e4353ccc5c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(2) > a > .price:nth-child(1)",
+      "targets": [
+        ["css=.item:nth-child(2) > a > .price:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div[8]/div[2]/ol/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/ol/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$50.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef94cbfa-aa9a-4f29-a986-c5b910bebc18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-options-item:nth-child(4) > .filter-options-title",
+      "targets": [
+        ["css=.filter-options-item:nth-child(4) > .filter-options-title", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c85dcf-ca9a-481a-ad72-3db7b5321be6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .item:nth-child(3) > a",
+      "targets": [
+        ["css=.active .item:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='narrow-by-list']/div[4]/div[2]/ol/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html?color=57&material=38&price=50-60&size=168&style_general=136')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/ol/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Polyester 1\nitem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c8eefc0-9578-43bb-b5df-84c2f09948d0",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.product-item-info",
+      "targets": [
+        ["css=.product-item-info", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div[3]/div/div[3]/ol/li/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": "productItem"
+    }, {
+      "id": "9e945aa1-a680-4add-9b16-07b9e22bd94e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tocart",
+      "targets": [
+        ["css=.tocart", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='maincontent']/div[3]/div/div[3]/ol/li/div/div/div[4]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eab72370-a427-4124-baaa-2cc0f26fcb41",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.message-success",
+      "targets": [
+        ["css=.message-success > div", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div[2]/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "300000"
+    }, {
+      "id": "d43ccf73-04b2-4255-9271-3065b28e761e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showcart",
+      "targets": [
+        ["css=.showcart", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b16f485b-1cae-4a3b-976d-9a84fd946958",
+      "comment": "",
+      "command": "click",
+      "target": "id=top-cart-btn-checkout",
+      "targets": [
+        ["id=top-cart-btn-checkout", "id"],
+        ["css=#top-cart-btn-checkout", "css:finder"],
+        ["xpath=//button[@id='top-cart-btn-checkout']", "xpath:attributes"],
+        ["xpath=//div[@id='minicart-content-wrapper']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Proceed to Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8756e78e-7027-448c-b5c5-560ebd45ae9b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.opc-block-summary > .title",
+      "targets": [
+        ["css=.opc-block-summary > .title", "css:finder"],
+        ["xpath=//div[@id='opc-sidebar']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Order Summary')]", "xpath:innerText"]
+      ],
+      "value": "orderSummary"
+    }]
+  }],
+  "suites": [{
+    "id": "5298c955-b335-4f78-b33b-68b5c1beac65",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5c4e52c8-ad4f-4bc7-b7f3-1fcf54f1c80d"]
+  }],
+  "urls": ["https://magento.softwaretestingboard.com/"],
+  "plugins": []
+}
